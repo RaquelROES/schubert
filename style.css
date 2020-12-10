@@ -129,33 +129,24 @@ body {
 
 	#actividad .content .header .title h3 {
 		font-family: 'Fira Sans', sans-serif;
-	    color: : #808080;
-	   	border-bottom: 2px solid #808080;
-	   	width: 100%;
+	    color: #808080;
+	    border-bottom: 2px solid #808080;
+	    width: 100%;
+	    text-align: right;
 	}
 
 	#actividad .content .header .title h3 span {
-    display: inline-block;
-    border-left: none;
-    padding: 6px 10px 6px 10px;
-    border-radius: 0px 10px 0px 0px;
-    color: #fff;
-    background: #808080;
-    font-weight: 600;
-    text-align: left;
+	    display: inline-block;
+	    border-left: none;
+	    padding: 6px 10px 6px 10px;
+	    border-radius: 0px 10px 0px 0px;
+	    color: #fff;
+	    background: #808080;
+	    font-weight: 600;
+	    text-align: left;
+	    float: left;
+	    margin-top: -6px;
 }
-/*
-	#actividad .content .header .title h3:before {
-    content: " ";
-    border-bottom: 2px solid #808080;
-    width: 766px;
-    background: transparent;
-    padding: 20px 0px 0px 0px;
-    position: absolute;
-    left: 97px;
-}
-
-	*/
 
 	#actividad .texto_curso,
 	#actividad .pregunta .texto_curso,
