@@ -666,6 +666,12 @@ body {
     border-color: transparent;
     }
 
+/*enlces*/
+a:hover, a:active, a:focus {
+    outline: 0;
+    color: #414141;
+    text-decoration: none;
+}
 
 
 /* CKEDITOR */
