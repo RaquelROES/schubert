@@ -1201,6 +1201,19 @@ body:not(.edit) .bck-flipbox-face.back {
     padding-bottom: 0px;
 }
 
+/*----------------crossword------------------------*/
+.slide.crosswords-puzzle ol.enunciados li.enunciado:before {
+    margin-left: -20px;
+}
+
+
+/*------------------memory---------------------------------*/
+#actividad .workspace.memory .front {
+    border: 2px solid #30C29D;
+    background: #30c29da1;
+
+}
+
 
 /*BK-10860*/
 /*
