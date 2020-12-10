@@ -579,6 +579,15 @@ body {
     font-weight: 700;
     }
 
+    #indice .unit-content .actividades {
+    border-top: 2px solid #808080;
+    margin-top: 45px;
+}
+
+.title-buttons {
+    text-align: left;
+}
+
 	#indice .unit-content .actividades .title-buttons .btn-primary, 
 	#indice .unit-content .actividades .title-buttons .btn-primary.disabled{
 	-moz-border-radius: 0px 20px 0px 0px;
@@ -588,6 +597,7 @@ body {
     color: #fff;
     background: #808080;
     font-weight: 700;
+    top: -16px;
 	}
 
 
@@ -597,17 +607,20 @@ body {
     border-color: #999999;
     color: white
     }
+
     #actividad .content .review .attemps span {
     background-color: #999999;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     }
+
     .btn-primary[disabled], .btn-primary[disabled]:focus {
     color: #fff;
     background-color: #428bca;
     border-color: #428bca;
     }
+
     .btn-solution, .btn-solution.disabled,
     .btn-solution[disabled], .btn-next, .btn-next.disabled,
     .btn-next[disabled] {
@@ -620,6 +633,7 @@ body {
     border-radius: 5px;
     font-weight: 700;
     }
+
     .btn-solution:hover,
     .btn-solution:focus,
     .btn-solution:active,
