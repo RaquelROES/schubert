@@ -443,7 +443,6 @@ body {
 	}
 
 	.body_clase .activity-navbar li {
-		background: #808080;
 		color: #fff;
 	}
 
@@ -480,8 +479,6 @@ body {
 }
 
 
-	.body_clase:not(.edit) .slider-indicators li.active,
-	.body_clase .activity-navbar li:hover,
 	#top-navigator .slider-indicators li.active,
 	#top-navigator .slider-indicators li:hover, {
 		background-color: #FF6600;
