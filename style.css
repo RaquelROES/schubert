@@ -1,13 +1,34 @@
 /* General */
 
-@import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre:400,400italic);
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+@font-face {
+	font-family: 'Fira Sans', sans-serif;
+	src: url('fonts/FiraSans-SemiBold.eot');
+	src: local url('fonts/FiraSans-SemiBold.woff') format('woff'), url('fonts/FiraSans-SemiBold.ttf') format('truetype'), url('fonts/FiraSans-SemiBold.svg') format('svg');
+	font-weight: 600; 
+}
+
+@font-face {
+	font-family: 'Fira Sans', sans-serif;
+	src: url('fonts/FiraSans-Regular.eot');
+	src: local url('fonts/FiraSans-Regular.woff') format('woff'), url('fonts/FiraSans-Regular.ttf') format('truetype'), url('fonts/FiraSans-Regular.svg') format('svg');
+	font-weight: 400; 
+}
+
+body {
+    font: 400 15px 'Fira Sans', sans-serif;
+    line-height: 21px;
+    color: #414141;
+    background-color: #eee
+}
 
 	.body_clase:not(.edit) .content-wrapper {
 		padding-top: 100px;
 		padding-bottom: 0;
 	}
 
-	/* BK-18572 Ajustar estilo en UX */
+
 	.body_clase:not(.edit) .content-wrapper.tmpux {
 		padding-top: 73px;
 	}
@@ -71,7 +92,7 @@
 	}
 
 	#actividad .content .header .title h3 {
-		font-family: 'Averia Serif Libre', Georgia, serif;
+		font-family: 'Fira Sans', sans-serif;
 		font-size: 6.2rem;
 		font-weight: normal;
 		color: #0095DA;
@@ -477,7 +498,7 @@
 	font-size: 5.0rem;
 	line-height: 5.0rem;
 	padding: 75px 10px 10px;
-	font-family: 'Averia Serif Libre', Georgia, serif;
+	font-family: 'Fira Sans', sans-serif;
 	text-align: center;
 }
 
@@ -511,7 +532,7 @@
 	.bck-title2,
 	.bck-title3,
 	.bck-title-activity {
-		font-family: 'Averia Serif Libre', Georgia, serif;
+		font-family: 'Fira Sans', sans-serif;
 	 	color: #0095DA;
 	}
 
@@ -769,13 +790,13 @@
 		color: #FFCA04;
 		font-size: 2.2rem;
 		margin-bottom: 20px;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Fira Sans', sans-serif;
 	}
 	.bck-box.box-2 .bck-title2,
 	.bck-box.box-3 .bck-title2 {
 		color: #FFCA04;
 		margin-bottom: 10px;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Fira Sans', sans-serif;
 		font-size: 1.6rem;
 	}
 	.bck-box.box-2 hr,
@@ -804,7 +825,7 @@
 	text-align: left;
 	margin-left: 10px;
 	margin-right: 10px;
-	font-family: 'Source Sans Pro',sans-serif;
+	font-family: 'Fira Sans', sans-serif;
     font-size: 1.6rem;
 }
 
@@ -977,4 +998,3 @@ div.calculo table.marco * {
 .body_clase .slide_main input {
     border: 1px solid #ccc !important;
 }
-
