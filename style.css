@@ -798,7 +798,7 @@ body {
 	.bck-box.box-1 {
 		background: #ffffff;
 		border-top: 0;
-		padding: 40px;
+		padding: 20px;
 		position: relative;
 		margin-top: 80px;
 		border: 2px solid #FF6600;
@@ -843,7 +843,7 @@ body {
 
 	.bck-box.box-2 .bck-title,
 	.bck-box.box-2 .bck-title1 {
-		color: #FF6600;
+		color: #40F200;
 		font-size: 1.6rem;
 		margin-bottom: 20px;
 		font-family: 'Fira Sans', sans-serif;
