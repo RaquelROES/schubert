@@ -67,6 +67,16 @@ body {
 
 	/* -----------------NAVBAR-----------------------*/
 
+	#indice .units ul li a:not(.delete) {
+    padding: 8px 16px 8px 5px;
+	}
+
+	#indice .unit-content {
+    -webkit-border-radius: 0px 0px 8px 8px
+    -moz-border-radius: 0px 0px 8px 8px
+    border-radius: 0px 0px 8px 8px;
+	}
+
 	#indice .units ul li {
     background: #808080;
     color: #fff;
