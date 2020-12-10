@@ -1221,6 +1221,12 @@ body:not(.edit) .bck-flipbox-face.back {
     margin-left: -20px;
 }
 
+.slide.crosswords .enunciados {
+    padding: 1rem 4rem;
+}
+
+
+
 
 /*------------------memory---------------------------------*/
 #actividad .workspace.memory .front {
