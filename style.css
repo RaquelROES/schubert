@@ -1177,6 +1177,16 @@ body:not(.edit) .bck-flipbox-face.back {
     font-size: 1.6rem;
 }
 
+#actividad .workspace.true-false .respuesta_ok {
+    border-bottom: 2px solid #40F200;
+}
+
+
+#actividad .workspace.true-false .respuesta_ko {
+    border-bottom: 2px solid #D90000;
+}
+
+
 
 /*---------------------clasificar----------------------------------*/
 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
