@@ -420,17 +420,16 @@ body {
 
 
 	.body_clase .activity-navbar #top-navigator .slider-indicators {
-		background: transparent;
-    	border-bottom: 2px dotted #007d3f;
+		background: #808080;
     	border-radius: 0;
 	}
+	
 	.body_clase .activity-navbar .dropdown {
 		border-radius: 0px;
    		background: transparent;
 	}
 
-	.body_clase .activity-navbar .dropdown button,
-	.body_clase .activity-navbar li {
+	.body_clase .activity-navbar .dropdown button{
 		border-radius: 5px;
 	    border: none;
 	    background-color: transparent;
@@ -442,6 +441,11 @@ body {
 	    font-size: 20px;
 	    font-weight: 400;
 	    cursor: pointer;
+	}
+
+	.body_clase .activity-navbar li {
+		background: #808080;
+		color: #fff;
 	}
 
 	.body_clase:not(.edit) .slider-indicators:after {
@@ -524,6 +528,11 @@ body {
 	    font-weight: bold;
 	    font-size: 14px;
 }
+
+	.caret {
+	    display: none;
+	}
+
 /**/
 
 /* Pagination */
