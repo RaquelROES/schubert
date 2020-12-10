@@ -657,47 +657,35 @@ body {
 	.bck-title3,
 	.bck-title-activity {
 		font-family: 'Fira Sans', sans-serif;
-	 	color: #0095DA;
+	 	color: #FF6600;
 	}
 
 	.bck-title1 {
-		font-size: 3.3rem;
+		font-size: 1.6rem;
 		clear: both;
-		border-left: 13px solid #FFCA04;
-		margin-left: -97px;
-		padding: 10px 20px 0px 84px;
-		margin-bottom: 25px;
+		margin-bottom: 5px;
 	}
 
 	.bck-title2 {
-		color: #0095DA;
-		font-size: 2.5rem;
+		font-size: 1.6rem;
 		clear: both;
-		border-left: 13px solid #FFCA04;
-		margin-left: -97px;
-		padding: 10px 20px 0px 84px;
-		margin-bottom: 20px;
+		margin-bottom: 5px;
 	}
 
 	.bck-title3 {
-		font-size: 2.0rem;
-		font-weight: normal;
+		font-size: 1.4rem;
+		clear: both;
+		margin-bottom: 5px;
 	}
-	.bck-title-activity {
-		font-size: 2.5rem;
-		margin-bottom: 25px;
-	}
-	.bck-enfasis,
-	strong {
-		color: #0095DA;
-		font-weight: bold;
-	}
+
 
 	.content hr,
 	.cke_contents hr {
 		border: 0;
-		border-top: 1px solid #0095DA;
+		border-top: 1px solid #808080;
 	}
+
+/*-----------------------------------------------------------------listas------------------------------------------------------------------------*/
 
 	.content ol,
 	.cke_contents ol {
@@ -720,7 +708,7 @@ body {
 		font-weight: bold;
 		font-size: 2.0rem;
 		text-align: right;
-		color: #0095DA;
+		color: #FF6600;
 		margin-top: -2px;
 	}
 
@@ -735,8 +723,7 @@ body {
 	.texto_curso ul li:before,
 	.workspace ul li ul li:before,
 	.cke_contents ul li:before {
-		background-color: #ffffff;
-		border: 2px solid #FFCA04;
+		background-color: #FF6600;
 		height: 12px;
 		width: 12px;
 		margin-top: 5px;
@@ -763,14 +750,14 @@ body {
 
 	.cke_contents table:not(.rf-tablegrid),
 	.content table:not(.rf-tablegrid) {
-		border: 1px solid #CBCCCD;
+		border: 1px solid #808080;
 	}
 
 	.cke_contents table:not(.rf-tablegrid) td,
 	.cke_contents table:not(.rf-tablegrid) th,
 	.content table:not(.rf-tablegrid) td,
 	.content table:not(.rf-tablegrid) th {
-		border: 1px solid #CBCCCD;
+		border: 1px solid #808080;
 		padding: 7px;
 	}
 
@@ -780,8 +767,11 @@ body {
 	}
 
 	.bck-td {
-		background: #dcdcdc;
+		background: #808080;
 	}
+
+
+	/*-------------------------------------------------------CAJAS------------------------------------------------*/
 
 	.bck-box {
 		margin-bottom: 30px;
@@ -792,7 +782,7 @@ body {
 	}
 
 	.bck-box .bck-title {
-		font-size: 2.5rem;
+		font-size: 1.6rem;
 		margin-bottom: 10px;
 	}
 	.bck-box .bck-title1,
@@ -811,29 +801,6 @@ body {
 		position: relative;
 		margin-top: 80px;
 	}
-	.bck-box.box-1:after {
-		content: '';
-		background: url(images/caja1-esquina.png) 0 0 no-repeat;
-		display: block;
-		width: 46px;
-		height: 60px;
-		position: absolute;
-		top: -60px;
-		right: -4px;
-	}
-	.bck-box.box-1:before {
-		content: '';
-		background: #ffffff;
-		border-top: 3px solid #0095DA;
-		border-left: 3px solid #0095DA;
-		margin-left: -43px;
-		margin-right: -8px;
-		margin-top: -99px;
-		width:auto;
-		height: 59px;
-		display: block;
-	}
-
 
 	.bck-box.box-1 hr {
 		border: 0;
@@ -868,43 +835,13 @@ body {
 		border-top: 0;
 		margin-top: 60px;
 	}
-	.bck-box.box-2:after {
-		content: '';
-		background: url(images/caja2-esquina.png) 0 0 no-repeat;
-		display: block;
-		width: 38px;
-		height: 38px;
-		position: absolute;
-		top: -38px;
-		right: -4px;
-	}
+	
 
-	.bck-box.box-2:before {
-		content: '';
-		background: #ffffff;
-		border-top: 3px solid #FFCA04;
-		border-left: 3px solid #FFCA04;
-		margin-left: -23px;
-		margin-right: 10px;
-		margin-top: -57px;
-		width:auto;
-		height: 37px;
-		display: block;
-	}
+	
 	.bck-box.box-3 {
 		margin-bottom: 80px;
 	}
-	.bck-box.box-3:after {
-		content: '';
-		background: url(images/caja3-flecha.png) 0 0 no-repeat;
-		display: block;
-		width: 70px;
-		height: 30px;
-		position: absolute;
-		bottom: -29px;
-		left: 50%;
-		margin-left: -35px;
-	}
+	
 
 
 	.bck-box.box-2 .bck-title,
