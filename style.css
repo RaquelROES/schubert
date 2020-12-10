@@ -65,7 +65,29 @@ body {
 		position: relative;
 	}
 
-	/* BK-18572 Ajustar estilo en UX */
+	/* -----------------NAVBAR-----------------------*/
+
+	#indice .units ul li {
+    background: #808080;
+    color: #fff;
+    -webkit-border-radius:  0px 20px 0px 0px;
+    -moz-border-radius:  0px 20px 0px 0px;
+    border-radius: 0px 20px 0px 0px;
+    margin-bottom: 8px;
+    padding: 0px;
+    border-left: 15px solid #FF6600;
+    }
+
+    #indice .units ul li a .title {
+    color: #fff;
+	}
+
+	#indice .units ul li.active:not(.disabled), 
+	body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
+	 #indice .units ul li:focus:not(.disabled) {
+    background: #FF6600;
+	}
+
 	#actividad .carousel-inner .item-container {
 		margin-top: 0px;
 	}
@@ -79,6 +101,10 @@ body {
 	#indice .unit-content .header .number
 	 {
 		visibility: hidden;
+	}
+
+	#indice .unit-content .header {
+    height: 180px;
 	}
 
 	#actividad .content .header {
@@ -539,7 +565,11 @@ body {
     background: white;
     font-weight: 700;
     }
-    .btn-primary, .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus {
+
+    .btn-primary,
+    .btn-primary.disabled, 
+    .btn-primary.disabled:hover,
+    .btn-primary.disabled:focus {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -548,6 +578,20 @@ body {
     background: white;
     font-weight: 700;
     }
+
+	#indice .unit-content .actividades .title-buttons .btn-primary, 
+	#indice .unit-content .actividades .title-buttons .btn-primary.disabled{
+	-moz-border-radius: 0px 20px 0px 0px;
+    -webkit-border-radius:  0px 20px 0px 0px;
+    border-radius: 0px 20px 0px 0px;
+    border: 0px;
+    color: #fff;
+    background: #808080;
+    font-weight: 700;
+	}
+
+
+
     .btn-primary:not([disabled]):hover, .btn-primary:not([disabled]):focus, .btn-primary:not([disabled]):active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
     background-color: #999999;
     border-color: #999999;
@@ -587,7 +631,7 @@ body {
     border-color: transparent;
     }
 
-    
+
 
 /* CKEDITOR */
 
