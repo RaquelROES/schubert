@@ -135,10 +135,9 @@ body {
 	}
 
 	#actividad .content .header .title h3 span {
-    display: block;
+    display: inline-block;
     border-left: none;
     padding: 6px 10px 6px 10px;
-    margin-bottom: 10px;
     border-radius: 0px 10px 0px 0px;
     color: #fff;
     background: #808080;
