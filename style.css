@@ -1225,6 +1225,9 @@ body:not(.edit) .bck-flipbox-face.back {
     padding: 1rem 4rem;
 }
 
+.puzzle-wrapper {
+    width: 50%;
+}
 
 
 
