@@ -592,11 +592,13 @@ body {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    border: 2px solid #999999;
-    color: #999999;
+    border: 2px solid #30C29D;
+    color: #30C29D;
     background: white;
     font-weight: 700;
     }
+
+
 
     #indice .unit-content .actividades {
     border-top: 2px solid #808080;
@@ -628,16 +630,16 @@ body {
     }
 
     #actividad .content .review .attemps span {
-    background-color: #999999;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    background-color: #30C29D;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
     }
 
     .btn-primary[disabled], .btn-primary[disabled]:focus {
     color: #fff;
-    background-color: #428bca;
-    border-color: #428bca;
+    background-color: #30C29D;
+    border-color: #30C29D;
     }
 
     .btn-solution, .btn-solution.disabled,
