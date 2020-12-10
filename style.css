@@ -894,6 +894,46 @@ body:not(.edit) .bck-flipbox-face.back {
 }
 
 
+/*----------------------------DROPDOWN--------------------------*/
+
+.bck-dropdown-icon>.fa {
+    border: 0px;
+}
+
+.bck-dropdown-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #FF6600;
+}
+
+
+.bck-dropdown {
+   font-family: 'Fira Sans', sans-serif;
+}
+
+.bck-dropdown-content {
+    overflow-y: auto;
+    display: none;
+    max-height: fit-content;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 2px solid #FF6600;
+}
+
+
+/*--------------------------info-pop-up--------------------------------*/
+
+.info-template .info-title,
+.info-template .info-icon,
+.info-popover .popover-title:before,
+.popover-template .popover-title:before,
+.info-popover .popover-title, 
+.popover-template .popover-title  {
+    color: #FF6600;
+}
+
+
 /* BK-9830 */
 .pool {
 	text-align: center;
