@@ -470,10 +470,10 @@ body {
     text-indent: 0;
     padding: 5px;
     font-size: 20px;
-    width: 30px;
+    width: 35px;
     height: 30px;
-    border-right: 4px solid #fff;
-    border-left: 4px solid #fff;
+    border-right: 3px solid #fff;
+    border-left: 3px solid #fff;
     border-radius: 0px;
     background: #808080;
 }
@@ -1175,6 +1175,20 @@ body:not(.edit) .bck-flipbox-face.back {
 .checkbox-option label.filter-label,.checkbox-option label.filter-label-append,.radio-option label.filter-label {
     -moz-user-select: none;
     font-size: 1.6rem;
+}
+
+
+/*---------------------clasificar----------------------------------*/
+#actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+    border: 2px solid #ff660082;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#actividad .workspace.clasificar .clasificar_lista .classify-item {
+    border: 2px solid #d8d8d8;
+    padding-bottom: 0px;
 }
 
 
