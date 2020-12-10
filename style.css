@@ -801,6 +801,7 @@ body {
 		padding: 40px;
 		position: relative;
 		margin-top: 80px;
+		border: 2px solid #FF6600;
 	}
 
 	.bck-box.box-1 hr {
@@ -824,7 +825,7 @@ body {
 	}
 
 	.bck-box.box-2 {
-		border: 2px solid #FF6600;
+		border: 2px solid #40F200;
 		padding: 20px;
 		font-size: 1.4rem;
 		position: relative;
