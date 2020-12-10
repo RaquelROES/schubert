@@ -129,16 +129,34 @@ body {
 
 	#actividad .content .header .title h3 {
 		font-family: 'Fira Sans', sans-serif;
-		font-size: 6.2rem;
+	    font-size: 14px;
 	    font-weight: normal;
 	    color: #007D3F;
 	    display: block;
 	    border-left: none;
-	    margin-left: -75px;
-	    padding: 50px 106px 0px 72px;
-	    margin-top: -30px;
+	    padding: 6px 10px 6px 10px;
 	    margin-bottom: 10px;
+	    border-radius: 0px 10px 0px 0px;
+	    color: #fff;
+	    background: #808080;
+	    font-weight: 600;
+	    width: fit-content;
 	}
+
+	#actividad .content .header .title h3 span {
+    color: #007D3F;
+    text-align: left;
+}
+
+	#actividad .content .header .title h3:before {
+    content: " ";
+    border-bottom: 2px solid #808080;
+    width: 766px;
+    background: transparent;
+    padding: 20px 0px 0px 0px;
+    position: absolute;
+    left: 97px;
+}
 
 	#actividad .content .header .title h3 span {
 		display: block;
