@@ -1116,6 +1116,9 @@ body:not(.edit) .bck-flipbox-face.back {
 
 
 /*---------------------------------ACTIVIDADES------------------------------------------*/
+
+/*-----------señalar respuesta----------------------*/
+
 #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
     background-color: #ff660021;
     border: 2px solid #ff6600;
@@ -1136,6 +1139,42 @@ body:not(.edit) .bck-flipbox-face.back {
     color: #414141;
     border-color: #D90000;
     font-weight: normal;
+}
+
+/*-----------respuesta multiple----------------------*/
+
+#actividad .workspace.multiple-choice .opcion.respuesta_checked {
+    background-color: #ff660021;
+    border: 2px solid #ff6600;
+    font-weight: normal;
+    color: #414141;
+}
+
+#actividad .workspace.multiple-choice .opcion.respuesta_ok {
+     color: #414141;
+    border-color: #40F200;
+    background: #40f2003b;
+    font-weight: normal;
+    background-image: none;
+}
+
+#actividad .workspace.multiple-choice .opcion.respuesta_ko {
+    color: #414141;
+    border-color: #D90000;
+    font-weight: normal;
+    background-image: none;
+}
+    
+
+#actividad .workspace {
+    clear: both;
+    font-size: 1.6rem;
+}
+
+/*-----------true/false---------------------*/
+.checkbox-option label.filter-label,.checkbox-option label.filter-label-append,.radio-option label.filter-label {
+    -moz-user-select: none;
+    font-size: 1.6rem;
 }
 
 
