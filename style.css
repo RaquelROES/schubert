@@ -482,7 +482,9 @@ body {
 
 
 	.body_clase:not(.edit) .slider-indicators li.active,
-	.body_clase .activity-navbar li:hover {
+	.body_clase .activity-navbar li:hover,
+	#top-navigator .slider-indicators li.active,
+	#top-navigator .slider-indicators li:hover, {
 		background-color: #FF6600;
 		opacity: 1;
 	}
