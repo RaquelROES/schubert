@@ -570,6 +570,7 @@ body {
 /*------------material de apoyo-------------------*/
 #indice .unit-content .material .item .imagen.archivo:before, #indice .unit-content .material .item .imagen.pdf:before {
     background-color: #808080;
+    background-image: none;
 }
 
 
