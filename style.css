@@ -486,6 +486,7 @@ body {
 		background-color: #FF6600;
 		opacity: 1;
 	}
+	
 	.body_clase .activity-navbar #top-navigator,
 	.body_clase .activity-navbar .dropdown {
 		float: left;
@@ -1114,4 +1115,3 @@ div.calculo table.marco * {
 .body_clase .slide_main input {
     border: 1px solid #ccc !important;
 }
-
