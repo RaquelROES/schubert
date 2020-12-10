@@ -130,14 +130,14 @@ body {
 	#actividad .content .header .title h3 {
 		font-family: 'Fira Sans', sans-serif;
 		font-size: 6.2rem;
-		font-weight: normal;
-		color: #0095DA;
-		display: block;
-		border-left: 18px solid #FFCA04;
-		margin-left: -97px;
-		padding: 50px 106px 0px 72px;
-		margin-top: -30px;
-		margin-bottom: 50px;
+	    font-weight: normal;
+	    color: #007D3F;
+	    display: block;
+	    border-left: none;
+	    margin-left: -75px;
+	    padding: 50px 106px 0px 72px;
+	    margin-top: -30px;
+	    margin-bottom: 10px;
 	}
 
 	#actividad .content .header .title h3 span {
@@ -528,17 +528,7 @@ body {
 /* Pagination */
 
 .js-slide-wrapper > .header .single-pagination {
-	position: absolute;
-	right: 85px;
-	top: 0;
-	width: 95px;
-	background: #0095DA;
-	color: #ffffff;
-	font-size: 5.0rem;
-	line-height: 5.0rem;
-	padding: 75px 10px 10px;
-	font-family: 'Fira Sans', sans-serif;
-	text-align: center;
+	display: none;
 }
 
 /* Iconos */
