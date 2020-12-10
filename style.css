@@ -486,7 +486,12 @@ body {
 		background-color: #FF6600;
 		opacity: 1;
 	}
-	
+
+	li.slider-indicator.active{
+		background-color: #FF6600 !important;
+		opacity: 1;
+	}
+
 	.body_clase .activity-navbar #top-navigator,
 	.body_clase .activity-navbar .dropdown {
 		float: left;
