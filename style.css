@@ -673,6 +673,12 @@ a:hover, a:active, a:focus {
     text-decoration: none;
 }
 
+/*----------página----------------------*/
+#actividad .carousel-inner .item-container {
+    border-top: 8px solid #FF6600;
+}
+
+
 
 /* CKEDITOR */
 
