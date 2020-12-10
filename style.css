@@ -568,15 +568,22 @@ body {
 }
 
 /*BOTONERA*/
+
     .btn-danger, .btn-danger[disabled] {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    border: 2px solid #fc4237;
-    color: #fc4237;
-    background: white;
+    color: #fff;
+    background: #FF6600;
     font-weight: 700;
     }
+
+
+    .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
+    color: #FF6600;
+    background-color: #fff;
+     border: 2px solid #FF6600;
+}
 
     .btn-primary,
     .btn-primary.disabled, 
