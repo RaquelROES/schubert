@@ -144,8 +144,8 @@ body {
 	}
 
 	#actividad .content .header .title h3 span {
-    color: #007D3F;
-    text-align: left;
+    color: #808080;
+    text-align: right;
 }
 
 	#actividad .content .header .title h3:before {
@@ -158,10 +158,7 @@ body {
     left: 97px;
 }
 
-	#actividad .content .header .title h3 span {
-		display: block;
-		font-size:2.8rem;
-	}
+	
 
 	#actividad .texto_curso,
 	#actividad .pregunta .texto_curso,
