@@ -9,10 +9,10 @@
 	schubertStyle.prototype = {
 		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
-		bodyClassName: 'content_type_clase_classic',
+		bodyClassName: 'content_type_clase_schubert',
 		extraPlugins: ['image2'],
 		ckEditorStyles: {
-			name: 'classic',
+			name: 'schubert',
 			styles: [
 
 				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title1'} },
@@ -121,7 +121,7 @@
 
 	schubertStyle.prototype = _.extend({}, new blink.theme.styles.basic(), schubertStyle.prototype);
 
-	blink.theme.styles.classic = schubertStyle;
+	blink.theme.styles.schubert = schubertStyle;
 
 })( blink );
 
@@ -178,4 +178,3 @@ function poolReposition() {
 		}
 	});
 }
-
