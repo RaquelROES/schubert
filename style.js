@@ -15,17 +15,17 @@
 			name: 'schubert',
 			styles: [
 
-				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title1'} },
-				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title2'} },
-				{ name: 'Título 3', element: 'h4', attributes: { 'class': 'bck-title3'} },
+				{ name: 'Title 1', element: 'h4', attributes: { 'class': 'bck-title1'} },
+				{ name: 'Title 2', element: 'h4', attributes: { 'class': 'bck-title2'} },
+				{ name: 'Title 3', element: 'h4', attributes: { 'class': 'bck-title3'} },
 				
 
-				{ name: 'Tabla centrada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
-				{ name: 'Celda encabezado', element: 'td', attributes: { 'class': 'bck-td' } },
+				{ name: 'Table', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
+				{ name: 'Cell', element: 'td', attributes: { 'class': 'bck-td' } },
 
-				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
-				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
-				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-3' } }
+				{ name: 'Box 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
+				{ name: 'Box 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
+				{ name: 'Box 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-3' } }
 			]
 		},
 
