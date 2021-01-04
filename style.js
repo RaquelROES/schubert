@@ -19,6 +19,7 @@
 				{ name: 'Title 2', element: 'h4', attributes: { 'class': 'bck-title2'} },
 				{ name: 'Title 3', element: 'h4', attributes: { 'class': 'bck-title3'} },
 				
+				{ name: 'Lista ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol1' } },
 
 				{ name: 'Table', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
 				{ name: 'Cell', element: 'td', attributes: { 'class': 'bck-td' } },
