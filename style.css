@@ -760,6 +760,15 @@ a:hover, a:active, a:focus {
 		margin-top: -2px;
 	}
 
+
+	/*LISTA ORDENADA 2*/
+
+.content .bck-ol1 li:before,
+.cke_contents .bck-ol1 li:before {
+    content: counter(bck-li-counter, lower-roman) "";
+}
+
+
 	.texto_curso ul li,
 	.workspace ul li ul li,
 	.cke_contents ul li {
