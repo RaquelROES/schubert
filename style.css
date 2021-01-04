@@ -763,11 +763,19 @@ a:hover, a:active, a:focus {
 
 	/*LISTA ORDENADA 2*/
 
+.content .bck-ol1 li,
+.cke_contents .bck-ol1 li {
+	padding-left: 22px;
+	}
+
 .content .bck-ol1 li:before,
 .cke_contents .bck-ol1 li:before {
     content: counter(bck-li-counter, lower-alpha) "";
+    font-size: 16px;
+    margin-left: -20px;
 }
 
+/*LISTA desORDENADA */
 
 	.texto_curso ul li,
 	.workspace ul li ul li,
